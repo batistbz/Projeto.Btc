@@ -56,9 +56,9 @@ export function FeaturedResources() {
     <section className="py-16 px-4 bg-muted/30">
       <div className="container mx-auto">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">Recursos em Destaque</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">Conteúdos</h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Materiais mais acessados e recomendados pela comunidade acadêmica
+            Materiais ensinados durantes as aulas
           </p>
         </div>
 

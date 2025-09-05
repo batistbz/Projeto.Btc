@@ -14,7 +14,6 @@ export function Hero() {
         <p className="text-lg md:text-xl text-muted-foreground mb-8 text-pretty max-w-2xl mx-auto">
           Acesse materiais de estudo, exercícios e projetos dos vencedores anteriores para aprimorar seu conhecimento.
         </p>
-
         <div className="flex flex-col sm:flex-row gap-4 max-w-md mx-auto mb-8">
           <div className="relative flex-1">
             <Search className="absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-muted-foreground" />

@@ -11,7 +11,6 @@ const champions = [
     project: "ClassNote - IA",
     description: "Site que transcreve e resume aulas com inteligência artificial.",
     github: "https://github.com/anasilva/ecotracker",
-    demo: "https://ecotracker-demo.vercel.app",
     tech: ["React", "Node.js", "HTML"],
     date: "1º lugar",
   },
@@ -22,7 +21,6 @@ const champions = [
     project: "UniMapa",
     description: "Mapa digital do campus com localização e eventos em tempo real.",
     github: "https://github.com/carlosmendes/studybuddy",
-    demo: "https://studybuddy-platform.vercel.app",
     tech: ["React", "Node.js", "HTML"],
     date: "2º lugar",
   },
@@ -33,7 +31,6 @@ const champions = [
     project: "LabControl",
     description: "Sistema de agendamento e gestão de laboratórios universitários.",
     github: "https://github.com/marianacosta/healthconnect",
-    demo: "https://healthconnect-demo.vercel.app",
     tech: ["React", "Node.js", "HTML"],
     date: "3º lugar",
   },
@@ -44,7 +41,6 @@ const champions = [
     project: "EcoSmart Unimar",
     description: "Monitoramento de consumo de energia e água no campus.",
     github: "https://github.com/pedrosantos/smartfinance",
-    demo: "https://smartfinance-ai.vercel.app",
     tech: ["React", "Node.js", "HTML"],
     date: "1º lugar",
   },
@@ -55,7 +51,6 @@ const champions = [
     project: "MentorMatch",
     description: "Plataforma que conecta calouros e veteranos para mentoria.",
     github: "https://github.com/juliaoliveira/codementor",
-    demo: "https://codementor-platform.vercel.app",
     tech: ["React", "Node.js", "HTML"],
     date: "2º lugar",
   },
@@ -66,7 +61,6 @@ const champions = [
     project: "VagaFácil - Unimar",
     description: "App que mostra vagas de estacionamento disponíveis na faculdade.",
     github: "https://github.com/rafaellima/greencity",
-    demo: "https://greencity-monitor.vercel.app",
     tech: ["React", "Node.js", "HTML"],
     date: "3º lugar",
   },
@@ -92,10 +86,6 @@ export function Championships() {
               key={champion.id}
               className="group hover:shadow-xl transition-all duration-300 border-border hover:border-[#2196F3]/50 bg-card relative overflow-hidden"
             >
-              {/* Badge de posição */}
-              <div className="absolute top-4 right-4 bg-[#0D47A1] text-white px-3 py-1 rounded-full text-sm font-semibold shadow-md">
-                #{index + 1}
-              </div>
 
               <CardHeader className="pb-4">
                 <div className="flex items-center gap-2 text-sm text-muted-foreground mb-2">
@@ -136,12 +126,6 @@ export function Championships() {
                     <a href={champion.github} target="_blank" rel="noopener noreferrer">
                       <Github className="h-4 w-4 mr-2" />
                       Código
-                    </a>
-                  </Button>
-                  <Button size="sm" className="flex-1 bg-[#2196F3] hover:bg-[#1565C0] text-white" asChild>
-                    <a href={champion.demo} target="_blank" rel="noopener noreferrer">
-                      <ExternalLink className="h-4 w-4 mr-2" />
-                      Demo
                     </a>
                   </Button>
                 </div>
