@@ -1,7 +1,7 @@
 import { BookOpen, Computer, Github, Mail } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-// //
+// arquivo que está configurações do footer //
 export function Footer() {
   return (
     <footer className="bg-muted/50 border-t border-border">
