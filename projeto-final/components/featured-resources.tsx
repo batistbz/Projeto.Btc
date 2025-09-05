@@ -3,27 +3,28 @@ import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
 import { Download, Eye, Clock } from "lucide-react"
 
+// arquivo responsavel pelo conteudo dentro das cards do curso//
 const featuredResources = [
   {
     id: 1,
     title: "Fundamentos de JavaScript",
-    description: "Guia completo sobre JavaScript moderno, incluindo ES6+, async/await e manipulação do DOM.",
+    description: "Conteúdo teórico passado nas aulas",
     category: "Programação",
     type: "PDF",
-    downloads: 1250,
-    views: 3400,
-    duration: "2h 30min",
+    downloads:"" ,
+    views: "",
+    duration: "1h 30min",
     level: "Iniciante",
   },
   {
     id: 2,
-    title: "Projeto React - Todo App",
+    title: "Framework React",
     description: "Projeto prático para construir uma aplicação de tarefas usando React, hooks e context API.",
     category: "Frontend",
     type: "Projeto",
     downloads: 890,
     views: 2100,
-    duration: "4h 15min",
+    duration: "3h 15min",
     level: "Intermediário",
   },
   {
@@ -34,8 +35,8 @@ const featuredResources = [
     type: "Exercícios",
     downloads: 2100,
     views: 5600,
-    duration: "6h 45min",
-    level: "Avançado",
+    duration: "2h 45min",
+    level: "",
   },
   {
     id: 4,
