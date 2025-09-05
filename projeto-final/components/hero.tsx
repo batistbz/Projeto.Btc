@@ -12,8 +12,7 @@ export function Hero() {
         </h1>
 
         <p className="text-lg md:text-xl text-muted-foreground mb-8 text-pretty max-w-2xl mx-auto">
-          Acesse materiais de estudo, exercícios, projetos e recursos educacionais organizados para potencializar seu
-          aprendizado.
+          Acesse materiais de estudo, exercícios e projetos dos vencedores anteriores para aprimorar seu conhecimento.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 max-w-md mx-auto mb-8">
@@ -27,25 +26,6 @@ export function Hero() {
           <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground">
             Buscar
             <ArrowRight className="ml-2 h-4 w-4" />
-          </Button>
-        </div>
-
-        <div className="flex flex-wrap justify-center gap-2 text-sm text-muted-foreground">
-          <span>Populares:</span>
-          <Button variant="link" className="h-auto p-0 text-accent hover:text-accent/80">
-            JavaScript
-          </Button>
-          <span>•</span>
-          <Button variant="link" className="h-auto p-0 text-accent hover:text-accent/80">
-            React
-          </Button>
-          <span>•</span>
-          <Button variant="link" className="h-auto p-0 text-accent hover:text-accent/80">
-            Python
-          </Button>
-          <span>•</span>
-          <Button variant="link" className="h-auto p-0 text-accent hover:text-accent/80">
-            Algoritmos
           </Button>
         </div>
       </div>
