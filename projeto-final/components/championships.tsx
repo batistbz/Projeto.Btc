@@ -2,72 +2,73 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { Trophy, Github, ExternalLink, Calendar } from "lucide-react"
 
+// arquivo que fica responsavel pelo conteudo dentro dos cards // 
 const champions = [
   {
     id: 1,
-    edition: "2024.1",
+    edition: "2024",
     winner: "Ana Silva",
     project: "EcoTracker - App de Sustentabilidade",
     description: "Aplicativo mobile para rastreamento de pegada de carbono pessoal com gamificação",
     github: "https://github.com/anasilva/ecotracker",
     demo: "https://ecotracker-demo.vercel.app",
     tech: ["React Native", "Node.js", "MongoDB"],
-    date: "Junho 2024",
+    date: "1º lugar",
   },
   {
     id: 2,
-    edition: "2023.2",
+    edition: "2024",
     winner: "Carlos Mendes",
     project: "StudyBuddy - Plataforma de Estudos",
     description: "Sistema colaborativo de estudos com salas virtuais e compartilhamento de recursos",
     github: "https://github.com/carlosmendes/studybuddy",
     demo: "https://studybuddy-platform.vercel.app",
     tech: ["Next.js", "PostgreSQL", "Socket.io"],
-    date: "Dezembro 2023",
+    date: "2º lugar",
   },
   {
     id: 3,
-    edition: "2023.1",
+    edition: "2024",
     winner: "Mariana Costa",
     project: "HealthConnect - Telemedicina",
     description: "Plataforma de telemedicina conectando pacientes e médicos com consultas online",
     github: "https://github.com/marianacosta/healthconnect",
     demo: "https://healthconnect-demo.vercel.app",
     tech: ["Vue.js", "Express", "WebRTC"],
-    date: "Junho 2023",
+    date: "3º lugar",
   },
   {
-    id: 4,
-    edition: "2022.2",
+    id: 1,
+    edition: "2023",
     winner: "Pedro Santos",
     project: "SmartFinance - Gestão Financeira",
     description: "Dashboard inteligente para controle financeiro pessoal com IA para insights",
     github: "https://github.com/pedrosantos/smartfinance",
     demo: "https://smartfinance-ai.vercel.app",
     tech: ["React", "Python", "TensorFlow"],
-    date: "Dezembro 2022",
+    date: "1º lugar",
   },
   {
-    id: 5,
-    edition: "2022.1",
+    id: 2,
+    edition: "2023",
     winner: "Julia Oliveira",
     project: "CodeMentor - Mentoria de Programação",
     description: "Plataforma conectando mentores e iniciantes em programação com sistema de matching",
     github: "https://github.com/juliaoliveira/codementor",
     demo: "https://codementor-platform.vercel.app",
     tech: ["Angular", "NestJS", "Redis"],
-    date: "Junho 2022",
+    date: "2º lugar",
   },
   {
-    id: 6,
-    edition: "2021.2",
+    id: 3,
+    edition: "2023",
     winner: "Rafael Lima",
     project: "GreenCity - Cidades Sustentáveis",
     description: "Sistema de monitoramento urbano para cidades inteligentes e sustentáveis",
     github: "https://github.com/rafaellima/greencity",
     demo: "https://greencity-monitor.vercel.app",
     tech: ["Svelte", "FastAPI", "IoT"],
-    date: "Dezembro 2021",
+    date: "3º lugar",
   },
 ]
 
@@ -78,10 +79,10 @@ export function Championships() {
         <div className="text-center mb-12">
           <div className="flex items-center justify-center gap-3 mb-4">
             <Trophy className="h-8 w-8 text-[#2196F3]" />
-            <h2 className="text-3xl md:text-4xl font-bold text-foreground">Hall da Fama</h2>
+            <h2 className="text-3xl md:text-4xl font-bold text-foreground">Vencedores</h2>
           </div>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Conheça os projetos vencedores das edições anteriores do Bootcamp e inspire-se
+            Conheça os projetos vencedores das <br />edições anteriores do Bootcamp e inspire-se
           </p>
         </div>
 
@@ -147,17 +148,6 @@ export function Championships() {
               </CardContent>
             </Card>
           ))}
-        </div>
-
-        <div className="text-center mt-12">
-          <Button
-            variant="outline"
-            size="lg"
-            className="border-[#2196F3] text-[#2196F3] hover:bg-[#2196F3] hover:text-white bg-transparent"
-          >
-            <Trophy className="h-5 w-5 mr-2" />
-            Ver Todas as Edições
-          </Button>
         </div>
       </div>
     </section>
