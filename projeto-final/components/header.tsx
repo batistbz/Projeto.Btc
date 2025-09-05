@@ -7,8 +7,8 @@ export function Header() {
     <header className="sticky top-0 z-50 w-full border-b border-border bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container mx-auto flex h-16 items-center justify-between px-4">
         <div className="flex items-center gap-2">
-          <BookOpen className="h-8 w-8 text-primary" />
-          <h1 className="text-xl font-bold text-foreground">Bootcamp Repository</h1>
+          <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple127/v4/22/e1/16/22e11680-3a41-14e6-e9c2-80dde6880826/source/512x512bb.jpg" className="h-8 w-8 text-primary" />
+          <h1 className="text-xl font-bold text-foreground">Bootcamp</h1>
         </div>
 
         <div className="hidden md:flex flex-1 max-w-md mx-8">
@@ -17,18 +17,6 @@ export function Header() {
             <Input placeholder="Buscar conteúdos..." className="pl-10 bg-muted/50 border-border focus:border-primary" />
           </div>
         </div>
-
-        <nav className="hidden md:flex items-center gap-4">
-          <Button variant="ghost" className="text-foreground hover:text-primary">
-            Materiais
-          </Button>
-          <Button variant="ghost" className="text-foreground hover:text-primary">
-            Categorias
-          </Button>
-          <Button variant="ghost" className="text-foreground hover:text-primary">
-            Sobre
-          </Button>
-        </nav>
 
         <Button variant="ghost" size="icon" className="md:hidden">
           <Menu className="h-5 w-5" />
