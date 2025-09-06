@@ -2,6 +2,7 @@ import { Search, ArrowRight } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 
+// parte de cima, antes dos conteudos, como se fosse na parte do banner  //
 export function Hero() {
   return (
     <section className="py-20 px-4">
