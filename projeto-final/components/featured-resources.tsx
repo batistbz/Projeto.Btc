@@ -9,21 +9,17 @@ const featuredResources = [
     id: 1,
     title: "Fundamentos de JavaScript",
     description: "Conteúdo teórico passado nas aulas",
-    category: "Programação",
+    category: "Versátil",
     type: "PDF",
-    downloads:"" ,
-    views: "",
     duration: "1h 30min",
-    level: "Iniciante",
+    level: "Intermediário",
   },
   {
     id: 2,
     title: "Framework React",
     description: "Projeto prático para construir uma aplicação de tarefas usando React, hooks e context API.",
     category: "Frontend",
-    type: "Projeto",
-    downloads: 890,
-    views: 2100,
+    type: "PDF",
     duration: "3h 15min",
     level: "Intermediário",
   },
@@ -31,23 +27,19 @@ const featuredResources = [
     id: 3,
     title: "HTML Básico",
     description: "Coleção de exercícios e explicações sobre algoritmos fundamentais e estruturas de dados.",
-    category: "Algoritmos",
-    type: "Exercícios",
-    downloads: 2100,
-    views: 5600,
+    category: "Frontend",
+    type: "PDF",
     duration: "2h 45min",
-    level: "",
+    level: "Iniciante",
   },
   {
     id: 4,
-    title: "API REST com Node.js",
+    title: "Python",
     description: "Tutorial completo para criar APIs RESTful usando Node.js, Express e MongoDB.",
     category: "Backend",
-    type: "Tutorial",
-    downloads: 1450,
-    views: 3800,
+    type: "PDF",
     duration: "3h 20min",
-    level: "Intermediário",
+    level: "Iniciante",
   },
 ]
 
@@ -89,14 +81,6 @@ export function FeaturedResources() {
                     <Clock className="h-4 w-4" />
                     {resource.duration}
                   </div>
-                  <div className="flex items-center gap-1">
-                    <Eye className="h-4 w-4" />
-                    {resource.views}
-                  </div>
-                  <div className="flex items-center gap-1">
-                    <Download className="h-4 w-4" />
-                    {resource.downloads}
-                  </div>
                 </div>
 
                 <div className="flex items-center justify-between">
@@ -118,23 +102,13 @@ export function FeaturedResources() {
                     </Button>
                     <Button size="sm" className="bg-primary hover:bg-primary/90 text-primary-foreground">
                       <Download className="h-4 w-4 mr-1" />
-                      Download
+                      Exercícios
                     </Button>
                   </div>
                 </div>
               </CardContent>
             </Card>
           ))}
-        </div>
-
-        <div className="text-center mt-12">
-          <Button
-            variant="outline"
-            size="lg"
-            className="border-primary text-primary hover:bg-primary hover:text-primary-foreground bg-transparent"
-          >
-            Ver Todos os Recursos
-          </Button>
         </div>
       </div>
     </section>
