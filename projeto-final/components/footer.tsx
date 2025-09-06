@@ -22,7 +22,7 @@ export function Footer() {
         </div>
 
         <div className="border-t border-border mt-8 pt-8 flex flex-col sm:flex-row justify-between items-center gap-4">
-          <p className="text-sm text-muted-foreground">© 2024 Bootcamp Repositório. Todos os direitos reservados.</p>
+          <p className="text-sm text-muted-foreground">© 2025 Bootcamp Repositório.</p>
           <div className="flex gap-4 text-sm text-muted-foreground">
             <Button variant="link" className="h-auto p-0 text-muted-foreground hover:text-primary">
               Feito por participante

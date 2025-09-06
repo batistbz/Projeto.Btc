@@ -29,7 +29,7 @@ const featuredResources = [
   },
   {
     id: 3,
-    title: "Algoritmos e Estruturas de Dados",
+    title: "HTML Básico",
     description: "Coleção de exercícios e explicações sobre algoritmos fundamentais e estruturas de dados.",
     category: "Algoritmos",
     type: "Exercícios",
