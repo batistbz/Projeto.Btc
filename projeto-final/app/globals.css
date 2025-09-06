@@ -4,18 +4,17 @@
 @custom-variant dark (&:is(.dark *));
 
 :root {
-  /* Atualizando tokens de design para o tema azul do bootcamp */
-  --background: oklch(1 0 0); /* Branco puro para fundo limpo */
+  --background: oklch(1 0 0); /* Branco puro para o fundo  */
   --foreground: oklch(0.3 0.02 258); /* Azul escuro para texto principal */
-  --card: oklch(0.92 0.02 258); /* Azul muito claro para cards */
+  --card: oklch(0.92 0.02 258); /* Azul clarinho para cards */
   --card-foreground: oklch(0.25 0.08 258); /* Azul escuro para texto dos cards */
   --popover: oklch(1 0 0);
   --popover-foreground: oklch(0.3 0.02 258);
-  --primary: oklch(0.45 0.12 258); /* #1565C0 - Azul principal */
+  --primary: oklch(0.45 0.12 258);
   --primary-foreground: oklch(1 0 0); /* Branco para texto em botões primários */
-  --secondary: oklch(0.22 0.15 258); /* #0D47A1 - Azul mais escuro */
+  --secondary: oklch(0.22 0.15 258);
   --secondary-foreground: oklch(0.92 0.02 258); /* Azul claro para texto secundário */
-  --muted: oklch(0.97 0.01 258); /* Cinza azulado muito claro */
+  --muted: oklch(0.97 0.01 258); /* Cinza azulado clarinho  */
   --muted-foreground: oklch(0.5 0.02 258);
   --accent: oklch(0.6 0.15 258); /* #2196F3 - Azul vibrante para destaques */
   --accent-foreground: oklch(1 0 0);
@@ -24,10 +23,10 @@
   --border: oklch(0.9 0.01 258); /* Bordas azul claro */
   --input: oklch(0.97 0.01 258);
   --ring: oklch(0.45 0.12 258 / 0.5); /* Ring azul com transparência */
-  --chart-1: oklch(0.92 0.02 258); /* #BBDEFB equivalente */
-  --chart-2: oklch(0.22 0.15 258); /* #0D47A1 equivalente */
-  --chart-3: oklch(0.6 0.15 258); /* #2196F3 equivalente */
-  --chart-4: oklch(0.45 0.12 258); /* #1565C0 equivalente */
+  --chart-1: oklch(0.92 0.02 258); 
+  --chart-2: oklch(0.22 0.15 258);
+  --chart-3: oklch(0.6 0.15 258); 
+  --chart-4: oklch(0.45 0.12 258); 
   --chart-5: oklch(1 0 0);
   --radius: 0.5rem;
   --sidebar: oklch(1 0 0);
