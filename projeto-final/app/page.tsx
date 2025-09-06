@@ -5,7 +5,7 @@ import { Championships } from "@/components/championships"
 import { Footer } from "@/components/footer"
 
 export default function HomePage() {
-  return ( // nesse momento estou chamando todos os outros arquivos para que funcione //
+  return ( // nesse momento estou chamando todos os outros arquivos para que fiquem aparentes //
     <div className="min-h-screen bg-background">
       <Header />  
       <main>
