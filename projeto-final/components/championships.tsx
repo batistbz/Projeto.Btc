@@ -1,4 +1,4 @@
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
+  import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { Trophy, Github, ExternalLink, Calendar } from "lucide-react"
 
@@ -132,6 +132,15 @@ export function Championships() {
               </CardContent>
             </Card>
           ))}
+        </div>
+                <div className="text-center mt-12">
+          <Button
+            variant="outline"
+            size="lg"
+            className="border-[#2196F3] text-[#2196F3] hover:bg-[#2196F3] hover:text-white bg-transparent">
+            <Trophy className="h-5 w-5 mr-2" />
+            Ver Todas as Edições
+          </Button>
         </div>
       </div>
     </section>
