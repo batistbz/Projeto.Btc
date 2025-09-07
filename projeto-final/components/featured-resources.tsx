@@ -8,7 +8,7 @@ const featuredResources = [
   {
     id: 1,
     title: "Fundamentos de JavaScript",
-    description: "Conteúdo teórico passado nas aulas",
+    description: "Aprenda os conceitos essenciais do JavaScript, a linguagem que dá interatividade e dinamismo às páginas da web.",
     category: "Versátil",
     type: "PDF",
     duration: "1h 30min",
@@ -17,7 +17,7 @@ const featuredResources = [
   {
     id: 2,
     title: "Framework React",
-    description: "Projeto prático para construir uma aplicação de tarefas usando React, hooks e context API.",
+    description: "Descubra como o React facilita a criação de interfaces modernas e reutilizáveis para aplicações web.",
     category: "Frontend",
     type: "PDF",
     duration: "3h 15min",
@@ -26,7 +26,7 @@ const featuredResources = [
   {
     id: 3,
     title: "HTML Básico",
-    description: "Coleção de exercícios e explicações sobre algoritmos fundamentais e estruturas de dados.",
+    description: "Entenda a estrutura principal da web com o HTML, a linguagem que organiza e dá forma ao conteúdo das páginas.",
     category: "Frontend",
     type: "PDF",
     duration: "2h 45min",
@@ -35,7 +35,7 @@ const featuredResources = [
   {
     id: 4,
     title: "Python",
-    description: "Tutorial completo para criar APIs RESTful usando Node.js, Express e MongoDB.",
+    description: "Explore o Python, uma linguagem versátil e simples, ideal para iniciantes e poderosa em áreas como ciência de dados e automação.",
     category: "Backend",
     type: "PDF",
     duration: "3h 20min",
