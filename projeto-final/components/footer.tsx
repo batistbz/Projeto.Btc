@@ -10,8 +10,8 @@ export function Footer() {
           {/* Logo e Descrição */}
           <div className="md:col-span-2">
             <div className="flex items-center gap-2 mb-4">
-              <Computer className="h-8 w-8 text-primary" />
-              <h3 className="text-xl font-bold text-foreground">Bootcamp Repositório</h3>
+            <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple127/v4/22/e1/16/22e11680-3a41-14e6-e9c2-80dde6880826/source/512x512bb.jpg" className="h-8 w-8 text-primary"/>
+            <h3 className="text-xl font-bold text-foreground">Bootcamp Repositório</h3>
             </div>
             <p className="text-muted-foreground mb-4 max-w-md">
               Plataforma educacional dedicada a disponibilizar os conteúdos já passados nas edições do Bootcamp
@@ -22,8 +22,8 @@ export function Footer() {
         <div className="border-t border-border mt-8 pt-8 flex flex-col sm:flex-row justify-between items-center gap-4">
           <p className="text-sm text-muted-foreground">2025 / Bootcamp Repositório.</p>
           <div className="flex gap-4 text-sm text-muted-foreground">
-            <Button variant="link" className="h-auto p-0 text-muted-foreground hover:text-primary">
-              Feito por participante
+            <Button className="hover:text-secundary">
+              <a href="https://github.com/batistbz">Feito por participante</a>
             </Button>
           </div>
         </div>
